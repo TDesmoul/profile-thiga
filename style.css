@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;300;400&family=Young+Serif&display=swap');
+
+body {
+  background: rgba(0,0,0,0.05);
+  font-size: 16px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+h1, h2, h3 {
+  font-family: 'Young Serif', serif;
+  color: #FF4D80;
+}
+
+#header {
+  border: 5px solid #FF4D80;
+}
+
+.box-white {
+  background: white;
+  padding: 16px 24px;
+  box-shadow: 0 0 16px rgba(0,0,0,0.15);
+  border-radius: 16px;
+  width: 60%;
+  margin: 24px auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
+#header img {
+  width: 150px;
+  border-radius: 50%;
+  border: 2px solid #ff4d80;
+}
+
+.btn {
+  background: #5FB49C;
+  padding: 16px 24px;
+  display: inline-block;
+  border-radius: 8px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  opacity: 0.6;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  opacity: 1;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  transform: scale(1.05);
+}
+
+.list-inline {
+  list-style: none;
+  padding-inline-start: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-large {
+  font-size: 3rem;
+}
+
+.link-social {
+  color: #5FB49C;
+  margin: 0 16px;
+  opacity: 0.6;
+}
+
+.link-social:hover {
+  opacity: 1;
+}
+
+/* green => #5FB49C */
+/* rose => #FF4D80 */
